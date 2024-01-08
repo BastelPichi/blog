@@ -8,7 +8,7 @@ After installing OpenWRT on my FritzBox, I couldn't get back into the FTP-Bootlo
   You can do this by unscrewing the screws on the back and carefully popping of the top.
 3) Soldering time!
    Flip the PCB and locate the 4 debugging pins. Solder your jumper wires to them and connect up your USB-to-Serial:
-   Image
+   ![FritzBox](fritzbox.png)
 
 4) Connect Putty to your USB-to-Serial.
    Then startup the FritzBox. You should see an shell like-prompt named Eva-AVM. Type help to make sure you can send to the FritzBox. One of the LEDs should be blinking green.
